@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/pevent"
+            android:icon="@drawable/ic_cloud_done_black_24dp"
+            android:title="@string/previous_events" />
+        <item
+            android:id="@+id/news"
+            android:icon="@drawable/ic_cloud_upload_black_24dp"
+            android:title="@string/news" />
+        <item
+            android:id="@+id/proj"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/projects" />
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+
+            <item
+                android:id="@+id/members"
+                android:icon="@drawable/ic_android_black_24dp"
+                android:title="@string/members" />
+
+            <item
+                android:id="@+id/contact"
+                android:icon="@drawable/ic_call_black_24dp"
+                android:title="@string/contact_us" />
+
+        </menu>
+    </item>
+
+</menu>
+
